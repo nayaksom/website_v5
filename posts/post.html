@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Personal Website of Som Nayak">
+  <meta name="author" content="Som Nayak">
+  <link rel="apple-touch-icon-precomposed" type="image/webp"
+    href="data:image/webp;base64,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">
+  <link rel="shortcut icon" type="image/webp"
+    href="data:image/webp;base64,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">
+  <title>Som Nayak | Technologist</title>
+
+  <meta property="og:title" content="Som Nayak | Technologist" />
+  <meta property="og:site_name" content="somnayak.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.somnayak.com" />
+  <meta property="og:image" content="https://www.somnayak.com/img/profile.img" />
+  <meta property="og:description"
+    content="Som Nayak is a Technologist, Product Manager, Marketer. Currently pursuing full-time MBA at Kenan-Flagler Business School, University of North Carolina at Chapel Hill." />
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@_somn_">
+  <meta name="twitter:title" content="Som Nayak | Technologist">
+  <meta name="twitter:description"
+    content="Som Nayak is a Technologist, Product Manager, Marketer. Currently pursuing full-time MBA at Kenan-Flagler Business School, University of North Carolina at Chapel Hill.">
+  <meta name="twitter:image" content="https://www.somnayak.com/img/profile.img">
+
+</head>
+
+<body class="light" style="padding-top: 56px;">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <div class="mt-5 d-none d-lg-block intro subheading">
+      <span>Hi, I'm Som</span>
+    </div>
+    <a class="navbar-brand js-scroll-trigger" href="index.html">
+      <span class="d-block d-lg-none">
+        <img class="img-fluid img-profile img-navbar rounded-circle profile" loading="lazy"
+          src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYAQMAAACEqAqfAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAENJREFUeNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4NsiAAAVub+pEAAAAASUVORK5CYII="
+          alt="Profile Image">Som Nayak
+      </span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle profile" loading="lazy"
+          src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYAQMAAACEqAqfAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAENJREFUeNrtwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4NsiAAAVub+pEAAAAASUVORK5CYII="
+          alt="Profile Image">
+      </span>
+    </a>
+    <div class="mb-5 d-none d-lg-block intro subheading">
+      <span>I am a</span>
+      <span class="typewrite" data-period="2000" data-type='[
+                        "product manager",
+                        "markerter",
+                        "geek"
+                        ]'>
+        <span class="wrap"></span>
+      </span>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse pt-5" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../blog.html">Blog</a></li>
+      </ul>
+      <div class="my-3 social-icons">
+        <a href="https://www.linkedin.com/in/somnayak" target="_blank" data-toggle="tooltip" data-placement="bottom"
+          title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 172 172">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M51.6,143.33333h-28.66667v-86h28.66667zM37.2724,45.86667c-7.9292,0 -14.33907,-6.42707 -14.33907,-14.33907c0,-7.912 6.42133,-14.3276 14.33907,-14.3276c7.90053,0 14.3276,6.42707 14.3276,14.3276c0,7.912 -6.42707,14.33907 -14.3276,14.33907zM154.8,143.33333h-27.56013v-41.85333c0,-9.98173 -0.1892,-22.81867 -14.3276,-22.81867c-14.35053,0 -16.55787,10.8704 -16.55787,22.09627v42.57573h-27.5544v-86.06307h26.4536v11.75907h0.37267c3.6808,-6.76533 12.6764,-13.8976 26.0924,-13.8976c27.92133,0 33.08133,17.82493 33.08133,40.99907z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://github.com/nayaksom " target="_blank" data-toggle="tooltip" data-placement="bottom"
+          title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 172 172">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M61.20104,161.11584c2.44584,-1.05264 4.15896,-3.48472 4.15896,-6.31584v-18.576c0,-0.67768 0.05504,-1.38288 0.14104,-2.0984c-0.04816,0.01376 -0.09288,0.02408 -0.14104,0.0344c0,0 -10.32,0 -12.384,0c-5.16,0 -9.632,-2.064 -11.696,-6.192c-2.408,-4.472 -3.44,-12.04 -9.632,-16.168c-1.032,-0.688 -0.344,-1.72 1.72,-1.72c2.064,0.344 6.536,3.096 9.288,6.88c3.096,3.784 6.192,6.88 11.696,6.88c8.55528,0 13.1408,-0.43 15.89968,-1.9092c3.21296,-4.77816 7.66088,-8.4108 12.30832,-8.4108v-0.086c-19.49792,-0.62608 -31.95416,-7.10704 -37.754,-17.114c-12.6076,0.14448 -23.58464,1.3932 -29.84888,2.43208c-0.19952,-1.12488 -0.37152,-2.25664 -0.51944,-3.39528c6.18168,-1.01824 16.65992,-2.22568 28.7068,-2.45616c-0.38528,-0.94944 -0.71896,-1.92296 -1.00104,-2.92056c-12.07784,-0.61232 -22.50104,-0.13416 -28.16328,0.33368c-0.0688,-1.14208 -0.16168,-2.28072 -0.17544,-3.43656c5.67256,-0.4644 15.81368,-0.9288 27.58192,-0.38184c-0.27176,-1.72 -0.4472,-3.47784 -0.4472,-5.30792c0,-5.848 2.064,-12.04 5.848,-17.2c-1.72,-5.848 -4.128,-18.232 0.688,-22.704c9.288,0 15.824,4.472 18.92,7.224c5.84456,-2.41144 12.38056,-3.78744 19.60456,-3.78744c7.224,0 13.76,1.376 19.264,3.784c3.096,-2.752 9.632,-7.224 18.92,-7.224c5.16,4.816 2.408,17.2 0.688,22.704c3.784,5.16 5.848,11.008 5.504,17.2c0,1.66496 -0.1548,3.27144 -0.3784,4.84696c12.03656,-0.59168 22.45288,-0.11696 28.22176,0.35088c-0.00688,1.15928 -0.11352,2.29104 -0.17544,3.43656c-5.74824,-0.47472 -16.426,-0.9632 -28.75496,-0.30616c-0.30616,1.15584 -0.67768,2.28072 -1.118,3.3712c12.19824,0.15824 22.9276,1.33816 29.40512,2.37016c-0.14792,1.14208 -0.31992,2.27384 -0.51944,3.39528c-6.57728,-1.05264 -17.78824,-2.28416 -30.54376,-2.34608c-5.7276,9.90032 -17.9568,16.3572 -37.07288,17.11056v0.10664c8.944,0 17.2,13.416 17.2,22.704v18.576c0,2.83112 1.71312,5.2632 4.15896,6.31584c31.51384,-10.43008 54.32104,-40.15168 54.32104,-75.11584c0,-43.62608 -35.49048,-79.12 -79.12,-79.12c-43.62952,0 -79.12,35.49392 -79.12,79.12c0,34.96416 22.8072,64.68576 54.32104,75.11584z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="mailto:hello@somnayak.com" target="_blank" data-toggle="tooltip" data-placement="bottom"
+          title="Email Me">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 172 172">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M28.66667,28.66667c-7.91917,0 -14.33333,6.41417 -14.33333,14.33333v12.41569l7.16667,4.49316l7.16667,4.49316l57.33333,35.93132l57.33333,-35.69336l7.16667,-4.46517l7.16667,-4.45117v-12.72363c0,-7.91917 -6.41417,-14.33333 -14.33333,-14.33333zM28.66667,43h114.66667v5.51497l-57.33333,35.67936l-57.33333,-35.93132zM14.33333,72.32455v56.67545c0,7.91917 6.41417,14.33333 14.33333,14.33333h114.66667c7.91917,0 14.33333,-6.41417 14.33333,-14.33333v-56.39551l-14.33333,8.91634v47.47917h-114.66667v-47.68913z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://codepen.io/nsom/" target="_blank" data-toggle="tooltip" data-placement="bottom"
+          title="Codepen">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 172 172">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <g id="surface1">
+                  <path
+                    d="M86,13.76l-72.24,45.9025v52.66156l72.24,45.91594l72.24,-45.9025v-52.675zM86,100.39156l-20.41156,-14.14969l20.41156,-13.92125l20.41156,13.92125zM92.88,60.56281v-26.3375l46.19813,29.36094l-20.70719,14.35125zM79.12,60.56281l-25.49094,17.37469l-20.70719,-14.35125l46.19812,-29.36094zM41.6025,86.14781l-14.0825,9.59437v-19.36344zM53.56188,94.43875l25.55812,17.72406v25.61187l-46.13094,-29.32062zM92.88,112.16281l25.55813,-17.72406l20.57281,14.01531l-46.13094,29.32062zM130.3975,86.14781l14.0825,-9.76906v19.36344z">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="https://twitter.com/_somn_" target="_blank" data-toggle="tooltip" data-placement="bottom"
+          title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 172 172">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <g id="surface1">
+                  <path
+                    d="M172.215,35.905c-6.35594,2.82188 -13.16875,4.71656 -20.33094,5.57656c7.31,-4.38063 12.92687,-11.31438 15.56062,-19.565c-6.82625,4.04469 -14.41844,6.9875 -22.4675,8.57312c-6.45,-6.88 -15.64125,-11.16656 -25.81344,-11.16656c-19.53812,0 -35.38094,15.82937 -35.38094,35.3675c0,2.76812 0.3225,5.46906 0.92719,8.0625c-29.40125,-1.47813 -55.45656,-15.56063 -72.91187,-36.96656c-3.05031,5.24062 -4.78375,11.31437 -4.78375,17.79125c0,12.26844 6.235,23.09906 15.73531,29.455c-5.805,-0.18813 -11.26062,-1.78719 -16.03094,-4.43438c0,0.14781 0,0.29563 0,0.44344c0,17.14625 12.20125,31.43031 28.36656,34.69562c-2.95625,0.80625 -6.08719,1.23625 -9.31219,1.23625c-2.28438,0 -4.50156,-0.215 -6.665,-0.645c4.515,14.04219 17.57625,24.295 33.04281,24.57719c-12.09375,9.48688 -27.34531,15.13063 -43.92719,15.13063c-2.86219,0 -5.67062,-0.16125 -8.42531,-0.49719c15.64125,10.05125 34.23875,15.89656 54.22031,15.89656c65.06438,0 100.64688,-53.89781 100.64688,-100.63344c0,-1.53187 -0.04031,-3.07719 -0.09406,-4.58219c6.90687,-4.98531 12.9,-11.22031 17.64344,-18.31531z">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="themeSwitcher">
+        <label class="custom-control custom-switch">
+          <span>Light</span>
+          <input type="checkbox" class="custom-control-input" id="themeButton"></input>
+          <span class="custom-control-indicator"></span>
+          <span>Dark</span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container-fluid">
+
+    <div class="row p-3 p-lg-5">
+
+      <!-- Post Content Column -->
+      <div class="col-md-8">
+
+        <!-- Title -->
+        <h1 class="mt-4"><small>Blog Post Title</small></h1>
+
+        <!-- Author -->
+        <p class="lead">
+          by
+          <a href="#">Som</a>
+        </p>
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on January 1, 2019 at 12:00 PM</p>
+
+        <hr>
+
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+
+        <hr>
+
+        <!-- Post Content -->
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error
+          quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus
+          inventore?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste
+          ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius
+          illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!
+        </p>
+
+        <blockquote class="blockquote">
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in
+            <cite title="Source Title">Source Title</cite>
+          </footer>
+        </blockquote>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat
+          totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam
+          tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui,
+          necessitatibus, est!</p>
+
+        <hr>
+
+        <!-- Comments Form -->
+        <div class="card my-4">
+          <h5 class="card-header">Leave a Comment:</h5>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Single Comment -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">Commenter Name</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+            lacinia congue felis in faucibus.
+          </div>
+        </div>
+
+        <!-- Comment with nested comments -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">Commenter Name</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+            lacinia congue felis in faucibus.
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </div>
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Search</h5>
+          <div class="card-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Categories</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#">HTML</a>
+                  </li>
+                  <li>
+                    <a href="#">Freebies</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">JavaScript</a>
+                  </li>
+                  <li>
+                    <a href="#">CSS</a>
+                  </li>
+                  <li>
+                    <a href="#">Tutorials</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Side Widget</h5>
+          <div class="card-body">
+            You can put anything you want inside of these side widgets. They are easy to use, and feature the new
+            Bootstrap 4 card containers!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Load CSS -->
+  <link href="../css/style.min.css" rel="stylesheet">
+  <link href="../css/img.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../js/main.min.js"></script>
+
+  <!-- Schema Tag -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@type": "Person",
+      "@id": "https://www.somnayak.com/#about",
+      "name": "Som Nayak",
+      "alternateName": "Soumyajit Nayak",
+      "nationality": "Indian",
+      "birthPlace": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sundargarh",
+          "addressRegion": "Odisha",
+          "addressCountry": "India"
+        }
+      },
+      "affiliation": [{
+        "@type": "CollegeOrUniversity",
+        "name": "UNC Kenan-Flagler Business School",
+        "sameAs": [
+          "https://www.kenan-flagler.unc.edu/",
+          "https://twitter.com/kenanflagler",
+          "https://www.facebook.com/KenanFlagler/",
+          "https://www.linkedin.com/school/unc-kenan-flagler/",
+          "https://www.youtube.com/channel/UCxv2KkoRVC4nv7osFqN1yew",
+          "https://en.wikipedia.org/wiki/UNC_Kenan%E2%80%93Flagler_Business_School"
+        ]
+      }],
+      "alumniOf": [{
+        "@type": "CollegeOrUniversity",
+        "name": "National Instritute of Technology, Rourkela",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Rourkela",
+          "https://www.nitrkl.ac.in/"
+        ]
+      }],
+      "gender": "Male",
+      "Description": "Technology Product and Strategy Enthusiast",
+      "disambiguatingDescription": "Product Marketing Manager",
+      "jobTitle": "Product Marketing Manager",
+      "worksFor": [{
+        "@type": "Organization",
+        "name": "Gamma Networks",
+        "sameAs": [
+          "https://gammanet.com/",
+          "https://www.linkedin.com/company/gamma-networks",
+          "https://twitter.com/Gamma_Networks"
+        ]
+      }],
+      "url": "https://somnayak.com",
+      "image": "https://somnayak.com/img/profile.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chapel Hill",
+        "addressRegion": "NC",
+        "addressCountry": "USA"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/somnayak/",
+        "https://github.com/nayaksom",
+        "https://twitter.com/_somn_",
+        "https://codepen.io/nsom/",
+        "https://www.facebook.com/soumyajit.nayak",
+        "https://angel.co/nayaksom"
+      ]
+    }
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-32529301-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html>

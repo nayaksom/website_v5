@@ -1,0 +1,74 @@
+<script type="application/ld+json">
+{
+"@context": "http://www.schema.org",
+"@type": "Person",
+"@id": "https://www.somnayak.com/#about",
+"name": "Som Nayak",
+"alternateName": "Soumyajit Nayak",
+"nationality": "Indian",
+"birthPlace" : {
+	"@type": "Place",
+    "address": {
+  		"@type": "PostalAddress",
+		"addressLocality": "Sundargarh",
+		"addressRegion": "Odisha",
+        "addressCountry": "India"
+	}
+},
+"affiliation": [
+	{
+		"@type": "CollegeOrUniversity",
+		"name": "UNC Kenan-Flagler Business School",
+		"sameAs": [
+      "https://www.kenan-flagler.unc.edu/",
+			"https://twitter.com/kenanflagler",
+			"https://www.facebook.com/KenanFlagler/",
+			"https://www.linkedin.com/school/unc-kenan-flagler/",
+      "https://www.youtube.com/channel/UCxv2KkoRVC4nv7osFqN1yew",
+      "https://en.wikipedia.org/wiki/UNC_Kenan%E2%80%93Flagler_Business_School"
+		]
+  }
+],
+"alumniOf": [
+	{
+	 "@type": "CollegeOrUniversity",
+	 "name": "National Instritute of Technology, Rourkela",
+	 "sameAs": [
+      "https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Rourkela",
+      "https://www.nitrkl.ac.in/"
+    ]
+	}
+],
+"gender": "Male",
+"Description": "Technology Product and Strategy Enthusiast",
+"disambiguatingDescription": "Product Marketing Manager",
+"jobTitle": "Product Marketing Manager",
+"worksFor": [
+	{
+		"@type": "Organization",
+		"name": "Gamma Networks",
+		"sameAs": [
+			"https://gammanet.com/",
+			"https://www.linkedin.com/company/gamma-networks",
+			"https://twitter.com/Gamma_Networks",
+		]
+	}
+],
+"url": "https://somnayak.com",
+"image": "https://somnayak.com/img/profile.jpg",
+"address": {
+	"@type": "PostalAddress",
+	"addressLocality": "Chapel Hill",
+	"addressRegion": "NC",
+	"addressCountry": "USA  "
+},
+"sameAs": [
+	"https://www.linkedin.com/in/somnayak/",
+	"https://github.com/nayaksom",
+	"https://twitter.com/_somn_",
+	"https://codepen.io/nsom/",
+	"https://www.facebook.com/soumyajit.nayak",
+	"https://angel.co/nayaksom"
+	]
+}
+</script>

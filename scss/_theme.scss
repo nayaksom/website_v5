@@ -1,0 +1,124 @@
+.light {
+    color: $dark-gray!important;
+    background-color: $white!important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $dark-gray!important;
+    }
+    nav {
+        background-color: $primary!important;
+    }
+    .card{
+        border-color: $gray-300!important;
+        .card-header{
+            background-color: $gray-100!important;
+        }
+        .card-body, .card-footer {
+            color: $dark-gray!important;
+            background-color: $gray-100!important;
+        }
+    }
+    .list-inline-item svg {
+        fill: $black;
+    }
+}
+.dark {
+    color: $gray-400!important;
+    background-color: $dark-gray!important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $gray-400!important;
+    }
+    nav {
+        background-color: $gray-900!important;       
+    }
+    .card{
+        border-color: $gray-700!important;
+        .card-header{
+            background-color: $dark-gray!important;
+        }
+        .card-body, .card-footer {
+            color: $gray-400!important;
+            background-color: $gray-900!important;
+        }
+    }
+    .list-inline-item svg {
+        fill: $gray-300;
+    }
+}
+
+@media (min-width: 992px) {
+    .dark {
+        nav {
+            background-color: $dark-gray!important;
+        }
+        .navbar {
+            border-right: 0.1rem solid $gray-900!important;
+        }    
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    color: $dark-gray!important;
+    background-color: $white!important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $dark-gray!important;
+    }
+    nav {
+        background-color: $primary!important;
+    }
+    .card-body, .card-footer {
+        color: $dark-gray;
+        background-color: $gray-300;
+    }
+    .list-inline-item svg {
+        fill: $black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    color: $gray-400!important;
+    background-color: $dark-gray!important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $gray-400!important;
+    }
+    nav {
+        background-color: $gray-900!important;       
+    }
+    .card{
+        border-color: $gray-700!important;
+        .card-header{
+            background-color: $dark-gray;
+        }
+        .card-body, .card-footer {
+            color: $gray-400;
+            background-color: $gray-900;
+        }
+    }
+    .list-inline-item svg {
+        fill: $gray-300;
+    }
+    @media (min-width: 992px) {
+        nav {
+            background-color: $dark-gray;
+        }   
+    }
+}
